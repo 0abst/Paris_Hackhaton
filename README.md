@@ -78,7 +78,7 @@ Next steps: In order to go beyond the hackhaton, the following actions can be ta
 
 https://yagi.fi/
 
-### Many thanks to Empiric Networks and Starknet for the Organisation!
+### Many thanks to Empiric Network and Starknet for the Organisation!
 
 ![image](https://user-images.githubusercontent.com/92883939/189539032-f955f45a-7e8e-41b0-bb2d-6d0542b6a1a5.png)
 
