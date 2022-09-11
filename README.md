@@ -2,15 +2,17 @@
 
 This hackhaton has been done with Omnisat.
 
-Empiric Network goes beyond price feeds. Advanced computational fields are needed in Defi, in a similar manner to what Traditional Finance already has. Thanks to Empiric, these computational fields can be built in a secure and verifiable manner.
+Empiric Network goes beyond price feeds. Advanced computational fields are needed in Defi, in a similar manner to what Traditional Finance already has.
 
-The twap.cairo contract has two main parts : 
+Thanks to Empiric, these computational fields can be built in a secure and verifiable manner.
+
+The twap.cairo contract has two main parts: 
 
 1. The function `update_historical_ticks` that accumulates Ticks struct in the storage mapping of the contract, that makes sure the mapping isn't holding more than `MAX_TICKS` values. In this project for demonstration, `MAX_TICKS` is set to 5.  
 So a rolling window of 5 values is being built, and when it is full, the challenge is to remove the oldest value and add the newest value. If we want to keep the order, we would need to shift `MAX_TICKS-1` values to the left and replace the latest value with the newest tick, which would consist of `MAX_TICKS` operations. If `MAX_TICKS` starts to be large (for example 60 or 240 values), this is not desirable.  
 We achieve only two operations per update by storing the MAX_TICKS values in a disordered manner by using another storage_var named `trailing index`. 
 
-   To be more clear, imagine that the window W is full for the first time. We have:
+To be clearer, imagine that the window W is full for the first time. We have:
      
  W = [t0, t1, t2, t3, t4], with ti = Tick_i  
  
@@ -60,6 +62,9 @@ Next steps: In order to go beyond the hackhaton, the following actions can be ta
 
 https://yagi.fi/
 
-Many thanks to Empiric Networks and Starknet for the Organisation!
+### Many thanks to Empiric Networks and Starknet for the Organisation!
 
-![image](https://user-images.githubusercontent.com/92883939/189538440-9a35b541-67c8-4a4b-8f29-dd17cc64db0d.png)
+![image](https://user-images.githubusercontent.com/92883939/189539032-f955f45a-7e8e-41b0-bb2d-6d0542b6a1a5.png)
+
+Link to the source:
+https://twitter.com/encodeclub/status/1549748655703429123?s=20
