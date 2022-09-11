@@ -10,7 +10,7 @@ Topic to work on for the hackhaton:
 
 Project Computational data feeds (extending the oracle & feeds)
 
-* Build a TWAP feed
+* Build a TWAP feed (Rolling Window TWAP)
 
 * Sources: 
 
