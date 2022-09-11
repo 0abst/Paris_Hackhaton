@@ -1,6 +1,6 @@
 # Paris - Empiric Network Computational Price Feeds - Starknet Hackhaton 19.07.2022
 
-This hackhaton has been done with Omnisat.
+This hackhaton has been done with omnisats.
 
 Empiric Network goes beyond price feeds. Advanced computational fields are needed in Defi, in a similar manner to what Traditional Finance already has.
 
