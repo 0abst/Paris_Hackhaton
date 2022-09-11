@@ -6,6 +6,18 @@ Empiric Network goes beyond price feeds. Advanced computational fields are neede
 
 Thanks to Empiric, these computational fields can be built in a secure and verifiable manner.
 
+Topic to work on for the hackhaton:
+
+Project Computational data feeds (extending the oracle & feeds)
+
+* Build a TWAP feed
+
+* Sources: 
+
+  * https://en.wikipedia.org/wiki/Time-weighted_average_price
+  
+  * https://docs.uniswap.org/protocol/V2/concepts/core-concepts/oracles
+
 The twap.cairo contract has two main parts: 
 
  #### First part:
